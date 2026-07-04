@@ -1,7 +1,4 @@
 {
-  "framework": null,
-  "buildCommand": "composer install --optimize-autoloader --no-dev && php artisan config:cache && php artisan view:cache",
-  "outputDirectory": "public",
   "functions": {
     "api/index.php": {
       "runtime": "vercel-php@0.7.3"
